@@ -1,0 +1,22 @@
+body {
+  background-color: powderblue;
+  width: 100%;
+}
+
+h1, h3 {
+  color: #0081C9
+}
+
+hr {
+  border-color: grey;
+  border-style: dotted none none none;
+  border-width: 5px;
+  width: 5%;
+}
+img:hover{
+  border-radius: 100%;
+  background-color: gold;
+}
+/* id selector overrides the element for ex you gave a backgroundcolor blue
+for the image then selecting an id you giue it as red then red is displayed and not blue*/
+/* you can give more than one classs name and styke them sepreately but id should be unique in the entire html file*/
