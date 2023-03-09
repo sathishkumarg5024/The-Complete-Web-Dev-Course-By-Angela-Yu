@@ -3,20 +3,29 @@ body{
   margin :0px;
   text-align:center;
   font-family:'Merriweather', sans-serif;
+  
+  
 
 }
 
 
 h1{
-margin-top:0; /*90px = 5.625em*/
+margin:50px 0 0 0; /*90px = 5.625em*/
 font-family: 'Sacramento',cursive;
-font-size:5.625em;
+font-size:6rem;
+color:whitesmoke;
+line-height:2;
+
 }
 h2{
-font-family:'Monserrat',sans-serif;
+font-family:'Montserrat',sans-serif;
+font-size: 2.5rem;
+color:whitesmoke;
+font-weight:normal;
 }
 h3{
-  font-family:'Monserrat',sans-serif;
+  font-family:'Montserrat',sans-serif;
+  color:whitesmoke;
 }
 
 .top-container{
@@ -51,5 +60,8 @@ span {
   position: absolute;
   right:550px;
   top:50px;
+}
+.skill-row{
+  width:50%;
 }
 /*#847A9F#A178A4#B172A5#6BBED4#3994BE*/
