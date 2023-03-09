@@ -3,8 +3,6 @@ body{
   margin :0px;
   text-align:center;
   font-family:'Merriweather', sans-serif;
-  
-  
 
 }
 
@@ -29,23 +27,20 @@ h3{
 }
 
 .top-container{
-  background-color: #A178A4;
+  background-color: #d3aad6;
   height:auto;
   width:auto;
   padding:20px;
-  border:2px solid black;
   position:relative;
   padding-top: 100px;
    /*margin does not affect the overall size of the div like padding and border. */
 }
 
-.middle-container{
+.middle-container , .contact-me ,.bottom-container{
  
-  
+ background-color: #d3aad6;
 }
-.bottom-container{
- 
-}
+
 
 span {
   text-decoration: underline;
@@ -63,5 +58,24 @@ span {
 }
 .skill-row{
   width:50%;
+  margin: 100px auto;
+  text-align:left;
+  line-height:2;
+}
+.comp{
+  width:25%;
+  float:left;
+  padding:30px;
+  border-radius: 50%;
+}
+.coding{
+  width:25%;
+  float:left;
+  padding:30px;
+  float:right;
+  border-radius:30%;
+}
+.pic{
+  height:50px;
 }
 /*#847A9F#A178A4#B172A5#6BBED4#3994BE*/
