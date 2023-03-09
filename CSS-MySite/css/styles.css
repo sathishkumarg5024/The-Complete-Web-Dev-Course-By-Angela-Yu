@@ -8,8 +8,9 @@ body{
 
 
 h1{
-margin-top:0;
+margin-top:0; /*90px = 5.625em*/
 font-family: 'Sacramento',cursive;
+font-size:5.625em;
 }
 h2{
 font-family:'Monserrat',sans-serif;
@@ -43,12 +44,12 @@ span {
 }
 .bottom-cloud{
   position:absolute;
-  left:500px;
+  left:550px;
   bottom:300px
 }
 .top-cloud{
   position: absolute;
-  right:500px;
+  right:550px;
   top:50px;
 }
 /*#847A9F#A178A4#B172A5#6BBED4#3994BE*/
