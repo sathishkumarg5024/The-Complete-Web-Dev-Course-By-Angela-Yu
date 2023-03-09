@@ -37,15 +37,28 @@ h3{
    /*margin does not affect the overall size of the div like padding and border. */
 }
 
-.middle-container , .contact-me ,.bottom-container{
+.middle-container , .contact-me {
  
  background-color: black;
+}
+.bottom-container{
+  background: #FEC195;
+  margin:auto;
+  padding: 50px  0 20px;
 }
 
 .footer-link{
   text-decoration: none;
-  color:#FEC195;
+  color:white;
+  padding:20px;
+  margin:10px 20px;
 
+}
+.footer-link:hover{
+  color:#fba76b
+}
+#lastp{
+  color:white;
 }
 
 span {
@@ -95,6 +108,7 @@ button {
   border-radius: 8px;
   box-shadow: 0 0 0 #fec1958c;
   transition: all .3s ease-in-out;
+  margin:30px;
 }
 
 .star-1 {
