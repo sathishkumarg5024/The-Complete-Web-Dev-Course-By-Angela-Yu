@@ -2,16 +2,16 @@
 body{
   margin :0px;
   text-align:center;
+  justify-content: center;
   font-family:'Merriweather', sans-serif;
-  color:#FEC195
-
+  color: #FEC195;
 }
 
 
 h1{
 margin:50px 0 0 0; /*90px = 5.625em*/
 font-family: 'Sacramento',cursive;
-font-size:6rem;
+font-size:200px;
 color:#FEC195;
 line-height:2;
 
@@ -24,7 +24,7 @@ font-weight:normal;
 }
 h3{
   font-family:'Montserrat',sans-serif;
-  color:FEC195;
+  color:#FEC195;
 }
 
 .top-container{
@@ -57,9 +57,7 @@ h3{
 .footer-link:hover{
   color:#fba76b
 }
-#lastp{
-  color:white;
-}
+
 
 span {
   text-decoration: underline;
